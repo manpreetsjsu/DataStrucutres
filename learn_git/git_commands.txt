@@ -1,0 +1,47 @@
+commands for creating new repo and then pushing code to github
+
+touch README.md
+git init
+git add .
+git commit -m "first commit"
+
+
+1. create new repo remotely
+curl -u 'manpreetsjsu:Gnanakch2@' https://api.github.com/user/repos -d '{"name":"awsCodePipeline"}'
+
+2. add remote url 
+git remote add origin https://github.com/manpreetsjsu/spartanApp_Frontend.git
+ 
+3.git push origin master
+
+git checkout branch -->changes the branch
+
+git checkout -b newBranch --> creates new branch
+
+git branch --> lists all branches
+
+git remote add newOrigin Urlhere --> creates new reomote for the new branch 
+
+git remote -v --> lists all the remotes
+
+git push [remoteName] [branchName] -->pushed your code to the git
+
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+git fetch [name of remote] -->update our local repository but does not merge changes with the our working copy
+
+git pull --> updates and merge the changes from remote with our working copy of repository
+
+git log --graph --decorate [branch code which can be reteried from git fetch e.g.29f5724...8c59729]   --> list all the commits made in the remote branch
+
+git fetch -> git reset --hard origin/master --> reset the current branch master to origin's master
+
+*******
+git fetch origin, git rebase --onto [remote/branch] e [branch]    --> better than git pull for merging conflicts
+*******
+ 
+
+
+
+
