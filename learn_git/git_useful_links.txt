@@ -1,0 +1,4 @@
+How (and why!) to keep your Git commit history clean
+	Git commit history is very easy to mess up, here's how you can fix it!
+
+	https://about.gitlab.com/2018/06/07/keeping-git-commit-history-clean/#situation-2-i-need-to-change-a-specific-commit
