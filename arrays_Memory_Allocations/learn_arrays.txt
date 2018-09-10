@@ -1,0 +1,9 @@
+
+Introduction to Arrays in Java
+	https://www.geeksforgeeks.org/array-data-structure/#introduction
+
+How Java objects are stored in Memory ? 
+	https://www.geeksforgeeks.org/g-fact-46/
+
+Understanding java memory allocation 
+	https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html
