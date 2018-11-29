@@ -1,0 +1,5 @@
+1. search an element in sorted and rotated array..
+	https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+
+2.  Sort Array By Parity (i come up with in-place algorithm, time-O(N),space -o(1))
+	https://leetcode.com/problems/sort-array-by-parity/solution/
